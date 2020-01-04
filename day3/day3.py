@@ -1,6 +1,6 @@
 from typing import Set, Tuple
 
-f = open("C:\\Users\\Danijela\\Desktop\\faks\\python\\input.txt", "r")
+f = open(path)
 
 if f.mode == "r":
 	first, second = f.readlines()
