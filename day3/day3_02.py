@@ -1,6 +1,6 @@
-from typing import  Tuple, Set, Dict
+from typing import  Tuple, Dict, Set
 
-f = open("C:\\Users\\Danijela\\Desktop\\faks\\python\\input.txt", "r")
+f = open(path)
 
 if f.mode == "r":
 	first, second = f.readlines()
