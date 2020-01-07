@@ -5,9 +5,7 @@ if f.mode == "r":
 	input = f.readlines()
 
 def required_fuel(fuels: list) -> int:
-	sum = 0
-	for fuel in fuels:
-		sum += floor(int(fuel)/3) - 2
-	return sum
-
+	#with open(path, "r") as fuels:
+	#return sum(floor(int(fuel) / 3) - 2 for fuel in fuels.readlines())
+	return sum(floor(int(fuel) / 3) - 2 for fuel in fuels)
 f.close()
