@@ -1,4 +1,4 @@
-f = open(path)
+f = open(path, "r")
 
 if f.mode == "r":
 	r = f.read()
@@ -80,3 +80,4 @@ while i < len(parsed):
         parsed[dest] = 1 if (second_op == first_op) else 0
         i += 4
 
+f.close()
