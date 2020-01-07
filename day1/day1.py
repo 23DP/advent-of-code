@@ -1,4 +1,3 @@
-from functools import reduce
 from numpy import floor
 f = open(path, "r")
 
