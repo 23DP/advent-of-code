@@ -1,4 +1,4 @@
-f = open(path)
+f = open(path, "r")
 
 if f.mode == "r":
 	all_orbits = f.readlines()
@@ -30,4 +30,5 @@ for node in pairs.keys():
     connections += orbits(pairs, node)  #sum the count for every node in our system
     
 print(connections)
-    
+
+f.close()
