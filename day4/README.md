@@ -1,4 +1,3 @@
-
 --- Day 5: Sunny with a Chance of Asteroids ---
 
 You're starting to sweat as the ship makes its way toward Mercury. The
