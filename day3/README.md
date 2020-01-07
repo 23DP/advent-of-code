@@ -64,6 +64,7 @@ intersection?
 
 
 --- Part Two --- 
+----------------
 
 It turns out that this circuit is very timing-sensitive; you actually
 need to *minimize the signal delay*.
