@@ -31,3 +31,5 @@ while i < len(parsed):
         dest = parsed[i + 1]  
         print(i, ": ", parsed[dest])
         i += 2
+
+f.close()
