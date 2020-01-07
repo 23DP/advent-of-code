@@ -1,6 +1,6 @@
 from typing import  Tuple, Dict, Set
 
-f = open(path)
+f = open(path, "r")
 
 if f.mode == "r":
 	first, second = f.readlines()
