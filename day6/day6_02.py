@@ -39,3 +39,4 @@ def get_closest(dict):
         x_nodes = dict[x_nodes]
     
 print(get_closest(pairs))
+f.close()
