@@ -1,4 +1,4 @@
-f = open(path)
+f = open(path, "r")
 
 if f.mode == "r":
 	r = f.read()
