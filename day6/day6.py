@@ -12,17 +12,14 @@ def orbits(dict, key):
 
     while AAA != "COM":     #count how many pairs is key from COM
         cnt += 1
-        BBB = AAA
-        AAA = dict[BBB]
-
+        BBB, AAA = AAA, dict[BBB]
+	
     return cnt
 
 
 # COM ) AAA ) BBB
-for i in range(len(all_orbits)):
-    AAA = all_orbits[i].split(")")[0]   #Making a dictionary with every pair
-    BBB = all_orbits[i].split(")")[1] 
-
+for orbit in all_orbits:
+    AAA, BBB = orbit.split(")")   #Making a dictionary with every pair
     pairs[BBB] = AAA
 
 
