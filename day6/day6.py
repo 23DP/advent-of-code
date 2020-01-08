@@ -19,8 +19,8 @@ def orbits(dict, key):
 
 
 # COM ) AAA ) BBB
-for i in range(len(all_orbits)):
-    AAA, BBB = all_orbits[i].split(")")   #Making a dictionary with every pair
+for orbit in all_orbits:
+    AAA, BBB = orbit.split(")")   #Making a dictionary with every pair
 
     pairs[BBB[0:len(BBB)-1]] = AAA
 
