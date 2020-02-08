@@ -20,7 +20,8 @@ for layer in image:
             if finalPic[i][j] == 2:          #if the value of the pixel is 2, meaning transparent,
                 finalPic[i][j] = layer[i][j] #change it's value to the corresponding pixel in the current layer
 
-for a in range(0, row):
-    for b in range(0, column):
-        print(' ' if finalPic[a][b] == 0 else '•', end = '')
+for row in finalPic:
+    for pixel in row:
+        print(' ' if pixel == 0 else '•', end = '')
     print('')
+
